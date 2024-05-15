@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet"> 
+
+	<title>Северяночка</title>
+</head>
+<body>
+<header class="header headd">	
+    <a href="index.html">
+     <img class="logo" src="images/Logo.png" alt="">
+   </a>
+    <nav>
+    	<div class="header_catalog" onclick="Catalog()">
+        <div class="burger">
+            <div class="line">
+              <p class="color_header"></p>
+            </div>
+            <div class="line">
+              <p class="color_header"></p>
+            </div>
+            <div class="line">
+              <p class="color_header"></p>
+            </div>
+            <p class="color_header">Каталог</p>
+        </div>
+      </div>
+    </nav>
+        <form class="form_header" action="">
+      <input class="search_form" type="text" placeholder="Найти товар">
+      <button class=search_button type="submit">
+        <img src="images/search.png">
+      </button>
+    </form>
+    <ul class="list">
+      <li class="icon_list">
+      	<a href="izbrannoe.html">
+        <img class="images" src="images/favourites.png" alt="">
+        </a>
+        <span>Избранное</span>
+      </li>
+      <li class="icon_list">
+      	<a href="images/obezyana.jpg">
+        <img class="images" src="images/Frame 211.png" alt="">
+        </a>
+        <span>Заказы</span>
+      </li>
+      <li class="icon_list">
+      	<a href="basket.html">
+        <img class="images" src="images/shopping.png" alt="">
+        </a>
+        <span>Корзина</span>
+      </li>
+    </ul>
+    <div class="header_profile">
+        <img class="profile_icon" src="images/profil.png" alt="">
+          <span class="profile_name">user</span>
+        <button class="profile">
+          <img class="shape" src="images/Shape.png" alt="">
+        </button>
+    </div>
+    <!--............................................КАТАЛОГ................................................. -->
+    <div class="header_bottom bott hide_header_bottom">
+      <div class="slider_header">
+         <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="milk.html">Молоко,сыр,яйцо</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="bread.html">Хлеб</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="fruits.html">Фрукты и овощи</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="frozen.html">Замороженные продукты</a>
+          </li>
+        </ul>
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="beverages.html">Напитки</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="сonfectionery.html">Кондитерские изделия</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="tea.html">Чай,кофе</a>
+          </li>
+        </ul>
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="grocery.html">Бакалея</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="healthy.html">Здоровое питание</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="petsupplies.html">Зоотовары</a>
+          </li>
+        </ul>
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="nonfood.html">Непродовольственные товары</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="babyfood.html">Детское питание</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="meat.html">Мясо,птица,колбаса</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+</header>
+<main>
+	<div class="main_categor">
+		<div class="container_categor">
+				<a  class="txt_catalog" href="">Молоко, сыр, яйцо</a>
+		</div>
+		<div class="category">
+			<ul class="category_ul">
+				<li class="category_li">Товары нашего производства</li>
+				<li class="category_li">Полезное питание</li>
+				<li class="category_li">Без ГМО</li>
+			</ul>
+			<div class="category_content">
+				<div class="filtr">
+				    <div class="option_title">Фильтр</div>
+				    <div class="option_price">
+				    	<div class="price_clear">
+				    		<span class="price">Цена</span>
+				    		<button class="clear">Очистить</button>
+				    	</div>
+				    	<div class="filter_price">
+				    		<input class="number_inp" type="number">
+				    		<span class="tire">-</span>
+				    		<input class="number_inp" type="number">
+				    	</div>
+				    </div>
+				    <ul class="ul_catalog">
+				    	<li class="list_catalog">Молоко</li>
+				    	<li class="list_catalog">Сливки</li>
+				    	<li class="list_catalog">Яйцо</li>
+				    </ul>
+				    <div class="apply">
+				    	<button class="apply_bot">Применить</button>
+				    </div>
+				</div>
+<!--.................................................ТОВАРЫ................................................ -->
+				<div class="category_line">
+	          <div class="slider1">
+	      <div class="divv">  
+    <div class="slider_top1 sliiid1">
+      <img class="blin1" src="images/image.png" alt="">
+      <button class="slider_button1">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent1">-50%</span>
+   
+    <div class="slider_container1">
+    <div class="slider_bottom1">
+      <span class="price1">44,50 p</span>
+      <span class="txt1">С картой</span>
+    </div>
+    <div class="slider_price1">
+      <span class="price_1">50,50 р</span>
+      <span class="txt1">Обычная</span>
+    </div>
+     </div>
+     <div class="text1"> 
+        <p class="product_name1">Г/Ц Блинчики с мясом вес, Россия</p>
+        <img class="rating1" src="images/rating.png" alt="">
+        <button class="basket1">В корзину</button>
+     </div>
+    </div>
+
+    <div class="slider_top1">
+      <img class="blin1" src="images/image(1).png" alt="">
+      <button class="slider_button1">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent1">-50%</span>
+   
+    <div class="slider_container1">
+    <div class="slider_bottom1">
+      <span class="price1">44,50 p</span>
+      <span class="txt1">С картой</span>
+    </div>
+    <div class="slider_price1">
+      <span class="price_1">50,50 р</span>
+      <span class="txt1">Обычная</span>
+    </div>
+     </div>
+     <div class="text1"> 
+        <p class="product_name1">Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</p>
+        <img class="rating1" src="images/rating(1).png" alt="">
+        <button class="basket1">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top1">
+      <img class="blin1" src="images/image(2).png" alt="">
+      <button class="slider_button1">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent1">-50%</span>
+   
+    <div class="slider_container1">
+    <div class="slider_bottom1">
+      <span class="price1">44,50 p</span>
+      <span class="txt1">С картой</span>
+    </div>
+    <div class="slider_price1">
+      <span class="price_1">50,50 р</span>
+      <span class="txt1">Обычная</span>
+    </div>
+     </div>
+     <div class="text1"> 
+        <p class="product_name">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+        <img class="rating1" src="images/rating(2).png" alt="">
+        <button class="basket1">В корзину</button>
+     </div>
+    </div>
+    </div>
+    <div class="divv2">
+    <div class="slider_top1">
+      <img class="blin1" src="images/image(2).png" alt="">
+      <button class="slider_button1">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent1">-50%</span>
+   
+    <div class="slider_container1">
+    <div class="slider_bottom1">
+      <span class="price1">44,50 p</span>
+      <span class="txt1">С картой</span>
+    </div>
+    <div class="slider_price1">
+      <span class="price_1">50,50 р</span>
+      <span class="txt1">Обычная</span>
+    </div>
+     </div>
+
+     <div class="text1"> 
+        <p class="product_name1">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+        <img class="rating1" src="images/rating(2).png" alt="">
+        <button class="basket1">В корзину</button>
+     </div>
+    </div>
+
+        <div class="slider_top1">
+      <img class="blin1" src="images/image(2).png" alt="">
+      <button class="slider_button1">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent1">-50%</span>
+   
+    <div class="slider_container1">
+    <div class="slider_bottom1">
+      <span class="price1">44,50 p</span>
+      <span class="txt1">С картой</span>
+    </div>
+    <div class="slider_price1">
+      <span class="price_1">50,50 р</span>
+      <span class="txt1">Обычная</span>
+    </div>
+     </div>
+     <div class="text1"> 
+        <p class="product_name1">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+        <img class="rating1" src="images/rating(2).png" alt="">
+        <button class="basket1">В корзину</button>
+     </div>
+    </div>
+        <div class="slider_top1">
+      <img class="blin1" src="images/image(2).png" alt="">
+      <button class="slider_button1">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent1">-50%</span>
+   
+    <div class="slider_container1">
+    <div class="slider_bottom1">
+      <span class="price1">44,50 p</span>
+      <span class="txt1">С картой</span>
+    </div>
+    <div class="slider_price1">
+      <span class="price_1">50,50 р</span>
+      <span class="txt1">Обычная</span>
+    </div>
+     </div>
+     <div class="text1"> 
+        <p class="product_name1">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+        <img class="rating1" src="images/rating(2).png" alt="">
+        <button class="basket1">В корзину</button>
+     </div>
+    </div>
+    </div>
+
+  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>>
+<!-- .........................................FOOTER................................................ -->
+<footer class = "footer footer1">
+    <img class="bgg" src="images/bg.png" alt="">
+    <div class="footer_container">
+      <img class="logo_img" src="images/logo1.png" alt="">
+      <div class="list_footer">
+        <ul class="ul_foot">
+          <li class="li_class">
+            <a class="item_link" href="">О компании</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Контакты</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Вакансии</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Статьи</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Политика обработки персональных данных</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="list_footer_img">
+        <ul class="ul_img">
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/Union.png" alt="">
+            </a>
+          </li>
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/vkontakte.png" alt="">
+            </a>
+          </li>
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/Subtract.png" alt="">
+            </a>
+          </li>
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/ok.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="phone"> 
+        <img src="images/phone.png" alt="">
+        <a class ="tel" href="">8 800 777 33 33</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</footer>
+</html>

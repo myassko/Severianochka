@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <title>Северяночка</title>
+</head>
+<body>
+<header class="header"> 
+     <a href="index.html">
+     <img class="logo" src="images/Logo.png" alt="">
+   </a>
+    <nav>
+      <div class="header_catalog" onclick="Catalog()">
+        <div class="burger">
+            <div class="line">
+              <p class="color_header"></p>
+            </div>
+            <div class="line">
+              <p class="color_header"></p>
+            </div>
+            <div class="line">
+              <p class="color_header"></p>
+            </div>
+            <p class="color_header">Каталог</p>
+        </div>
+      </div>
+    </nav>
+        <form class="form_header" action="">
+      <input class="search_form" type="text" placeholder="Найти товар">
+      <button class=search_button type="submit">
+        <img src="images/search.png">
+      </button>
+    </form>
+    <ul class="list">
+      <li class="icon_list">
+        <a href="izbrannoe.html">
+        <img class="images" src="images/favourites.png" alt="">
+        </a>
+        <span>Избранное</span>
+      </li>
+      <li class="icon_list">
+        <a href="images/obezyana.jpg">
+        <img class="images" src="images/Frame 211.png" alt="">
+        </a>
+        <span>Заказы</span>
+      </li>
+      <li class="icon_list">
+        <a href="basket.html">
+        <img class="images" src="images/shopping.png" alt="">
+        </a>
+        <span>Корзина</span>
+      </li>
+    </ul>
+    <div class="header_profile">
+        <img class="profile_icon" src="images/profil.png" alt="">
+          <span class="profile_name">user</span>
+        <button class="profile">
+          <img class="shape" src="images/Shape.png" alt="">
+        </button>
+    </div>
+    <!--............................................КАТАЛОГ................................................. -->
+    <div class="header_bottom bott hide_header_bottom">
+      <div class="slider_header">
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="milk.html">Молоко,сыр,яйцо</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="bread.html">Хлеб</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="fruits.html">Фрукты и овощи</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="frozen.html">Замороженные продукты</a>
+          </li>
+        </ul>
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="beverages.html">Напитки</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="сonfectionery.html">Кондитерские изделия</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="tea.html">Чай,кофе</a>
+          </li>
+        </ul>
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="grocery.html">Бакалея</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="healthy.html">Здоровое питание</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="petsupplies.html">Зоотовары</a>
+          </li>
+        </ul>
+        <ul class="slider_ul">
+          <li class="list_slider">
+            <a class="text_catalog" href="nonfood.html">Непродовольственные товары</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="babyfood.html">Детское питание</a>
+          </li>
+          <li class="list_slider">
+            <a class="text_catalog" href="meat.html">Мясо,птица,колбаса</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</header>
+ <main>
+  <img class="delivery" src="images/Sliders.png" alt=""> 
+  <div class="main">  
+    <h2 class="stocks">Акции</h2>
+    <a class="all_stocks" href="">Все акции    ></a>
+  </div>
+  <div class="slider">
+    <div class="slider_top sliiid">
+      <img class="blin" src="images/image.png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent">-50%</span>
+   
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">44,50 p</span>
+      <span class="txt">С картой</span>
+    </div>
+    <div class="slider_price">
+      <span class="price_">50,50 р</span>
+      <span class="txt">Обычная</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Г/Ц Блинчики с мясом вес, Россия</p>
+        <img class="rating" src="images/rating.png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(1).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent">-50%</span>
+   
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">44,50 p</span>
+      <span class="txt">С картой</span>
+    </div>
+    <div class="slider_price">
+      <span class="price_">50,50 р</span>
+      <span class="txt">Обычная</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(2).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent">-50%</span>
+   
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">44,50 p</span>
+      <span class="txt">С картой</span>
+    </div>
+    <div class="slider_price">
+      <span class="price_">50,50 р</span>
+      <span class="txt">Обычная</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+        <img class="rating" src="images/rating(2).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(3).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+      <span class="slider_percent">-50%</span>
+   
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">44,50 p</span>
+      <span class="txt">С картой</span>
+    </div>
+    <div class="slider_price">
+      <span class="price_">50,50 р</span>
+      <span class="txt">Обычная</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</p>
+        <img class="rating" src="images/rating(3).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+  </div>
+<!-- ..................................НОВИНКИ.................................................... -->
+  <div class="main"> 
+    <h2 class="stocks">Новинки</h2>
+    <a class="all_stocks" href="">Все новинки    ></a>
+  </div>
+  <div class="slider">
+    <div class="slider_top sliiid">
+      <img class="blin" src="images/image(4).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">599,99  p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+        <img class="rating" src="images/rating.png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(2).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">44,50 p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(3).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">159,99 p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(1).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">49,39 p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+  </div>
+  <!-- ..................................... ПОКУПАЛИ РАНЬШЕ.......................................... -->
+    <div class="main"> 
+    <h2 class="stocks">Покупали раньше</h2>
+    <a class="all_stocks" href="">Все покупки    ></a>
+  </div>
+  <div class="slider">
+    <div class="slider_top sliiid">
+      <img class="blin" src="images/image(5).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">77,99  p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+        <img class="rating" src="images/rating.png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(3).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">159,99 p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(4).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">599,99 p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+    <div class="slider_top">
+      <img class="blin" src="images/image(1).png" alt="">
+      <button class="slider_button">
+        <img src="images/favourites.png" alt="">
+      </button>
+    <div class="slider_container">
+    <div class="slider_bottom">
+      <span class="price">49,39 p</span>
+    </div>
+     </div>
+     <div class="text"> 
+        <p class="product_name">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+        <img class="rating" src="images/rating(1).png" alt="">
+        <button class="basket">В корзину</button>
+     </div>
+    </div>
+  </div>
+  <!--    ..................................СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ................................ --> 
+      <div class="main">
+    <h2 class="stocks">Специальные предложения</h2>
+      </div>
+  <div class="banner">
+    <img src="images/banner.png" alt="">
+  </div>
+
+ </main>
+</body>
+<!-- .........................................FOOTER................................................ -->
+<footer class = "footer">
+    <img src="images/bg.png" alt="">
+    <div class="footer_container">
+      <img class="logo_img" src="images/logo1.png" alt="">
+      <div class="list_footer">
+        <ul class="ul_foot">
+          <li class="li_class">
+            <a class="item_link" href="">О компании</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Контакты</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Вакансии</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Статьи</a>
+          </li>
+          <li class="li_class">
+            <a class="item_link" href="">Политика обработки персональных данных</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="list_footer_img">
+        <ul class="ul_img">
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/Union.png" alt="">
+            </a>
+          </li>
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/vkontakte.png" alt="">
+            </a>
+          </li>
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/Subtract.png" alt="">
+            </a>
+          </li>
+          <li class="li_class_img">
+            <a class="item_link_img" href="">
+              <img src="images/ok.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="phone"> 
+        <img src="images/phone.png" alt="">
+        <a class ="tel" href="">8 800 777 33 33</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</footer>
+
+</html>
